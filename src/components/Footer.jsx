@@ -17,9 +17,15 @@ const Footer = () => {
               solutions. Join us on the journey.
             </p>
             <div className="flex ai_center gap_15">
-              <TwitterIcon />
-              <TelegramIcon />
-              <Discord />
+              <a target="_blank" href="http://twitter.com">
+                <TwitterIcon />
+              </a>
+              <a target="_blank" href="http://telegram.com">
+                <TelegramIcon />
+              </a>
+              <a target="_blank" href="http://discord.com">
+                <Discord />
+              </a>
             </div>
           </div>
           <div className="col_12 md_col_8">
@@ -27,127 +33,197 @@ const Footer = () => {
               <div className="lg_col_3 col_6">
                 <ul className=" fs_lsm fw_600 leading_150 ff_tomorrow text_white">
                   APIs
-                  <li className="fw_300 leading_150 underline text_nowrap mt_20">
-                    Ethereum API
-                  </li>
-                  <li className="fw_300 leading_150 underline text_nowrap">
-                    Polygon API
-                  </li>
-                  <li className="fw_300 leading_150 underline text_nowrap">
-                    Arbitrum API
-                  </li>
-                  <li className="fw_300 leading_150 underline text_nowrap">
-                    Optimism API
-                  </li>
-                  <li className="fw_300 leading_150 underline text_nowrap">
-                    Solana API
-                  </li>
-                  <li className="fw_300 leading_150 underline text_nowrap">
-                    NFT API
-                  </li>
-                  <li className="fw_300 leading_150 underline text_nowrap">
-                    Transfers API
-                  </li>
-                  <li className="fw_300 leading_150 underline text_nowrap">
-                    Token API
-                  </li>
-                  <li className="fw_300 leading_150 underline text_nowrap">
-                    View all
-                  </li>
+                  <a href="#" className="text_white">
+                    <li className="fw_300 leading_150 underline text_nowrap footer_links cursor_pointer mt_20">
+                      Ethereum API
+                    </li>
+                  </a>
+                  <a href="#" className="text_white">
+                    <li className="fw_300 leading_150 underline text_nowrap footer_links cursor_pointer">
+                      Polygon API
+                    </li>
+                  </a>
+                  <a href="#" className="text_white">
+                    <li className="fw_300 leading_150 underline text_nowrap footer_links cursor_pointer">
+                      Arbitrum API
+                    </li>
+                  </a>
+                  <a href="#" className="text_white">
+                    <li className="fw_300 leading_150 underline text_nowrap footer_links cursor_pointer">
+                      Optimism API
+                    </li>
+                  </a>
+                  <a href="#" className="text_white">
+                    <li className="fw_300 leading_150 underline text_nowrap footer_links cursor_pointer">
+                      Solana API
+                    </li>
+                  </a>
+                  <a href="#" className="text_white">
+                    <li className="fw_300 leading_150 underline text_nowrap footer_links cursor_pointer">
+                      NFT API
+                    </li>
+                  </a>
+                  <a href="#" className="text_white">
+                    <li className="fw_300 leading_150 underline text_nowrap footer_links cursor_pointer">
+                      Transfers API
+                    </li>
+                  </a>
+                  <a href="#" className="text_white">
+                    <li className="fw_300 leading_150 underline text_nowrap footer_links cursor_pointer">
+                      Token API
+                    </li>
+                  </a>
+                  <a href="#" className="text_white">
+                    <li className="fw_300 leading_150 underline text_nowrap footer_links cursor_pointer">
+                      View all
+                    </li>
+                  </a>
                 </ul>
               </div>
 
               <div className="lg_col_3 col_6">
                 <ul className=" fs_lsm fw_600 leading_150 ff_tomorrow text_white">
                   Company
-                  <li className="fw_300 leading_150 underline text_nowrap mt_20">
-                    Sign Up
-                  </li>
-                  <li className="fw_300 leading_150 underline text_nowrap">
-                    Login
-                  </li>
-                  <li className="fw_300 leading_150 underline text_nowrap">
-                    Newsletter
-                  </li>
-                  <li className="fw_300 leading_150 underline text_nowrap">
-                    Status
-                  </li>
-                  <li className="fw_300 leading_150 underline text_nowrap">
-                    Create Web3 Dapp
-                  </li>
-                  <li className="fw_300 leading_150 underline text_nowrap">
-                    Sepolia Faucet
-                  </li>
-                  <li className="fw_300 leading_150 underline text_nowrap">
-                    Goerli Faucet{" "}
-                  </li>
-                  <li className="fw_300 leading_150 underline text_nowrap">
-                    Mumbai Faucet
-                  </li>
-                  <li className="fw_300 leading_150 underline text_nowrap">
-                    Overviews
-                  </li>
-                  <li className="fw_300 leading_150 underline text_nowrap">
-                    Gwei Calculator
-                  </li>
-                  <li className="fw_300 leading_150 underline text_nowrap">
-                    Chain Connect
-                  </li>
-                  <li className="fw_300 leading_150 underline text_nowrap">
-                    Request a Chain
-                  </li>
+                  <a href="#" className="text_white">
+                    <li className="fw_300 leading_150 underline text_nowrap footer_links cursor_pointer mt_20">
+                      Sign Up
+                    </li>
+                  </a>
+                  <a href="#" className="text_white">
+                    <li className="fw_300 leading_150 underline text_nowrap footer_links cursor_pointer">
+                      Login
+                    </li>
+                  </a>
+                  <a href="#" className="text_white">
+                    <li className="fw_300 leading_150 underline text_nowrap footer_links cursor_pointer">
+                      Newsletter
+                    </li>
+                  </a>
+                  <a href="#" className="text_white">
+                    <li className="fw_300 leading_150 underline text_nowrap footer_links cursor_pointer">
+                      Status
+                    </li>
+                  </a>
+                  <a href="#" className="text_white">
+                    <li className="fw_300 leading_150 underline text_nowrap footer_links cursor_pointer">
+                      Create Web3 Dapp
+                    </li>
+                  </a>
+                  <a href="#" className="text_white">
+                    <li className="fw_300 leading_150 underline text_nowrap footer_links cursor_pointer">
+                      Sepolia Faucet
+                    </li>
+                  </a>
+                  <a href="#" className="text_white">
+                    <li className="fw_300 leading_150 underline text_nowrap footer_links cursor_pointer">
+                      Goerli Faucet{" "}
+                    </li>
+                  </a>
+                  <a href="#" className="text_white">
+                    <li className="fw_300 leading_150 underline text_nowrap footer_links cursor_pointer">
+                      Mumbai Faucet
+                    </li>
+                  </a>
+                  <a href="#" className="text_white">
+                    <li className="fw_300 leading_150 underline text_nowrap footer_links cursor_pointer">
+                      Overviews
+                    </li>
+                  </a>
+                  <a href="#" className="text_white">
+                    <li className="fw_300 leading_150 underline text_nowrap footer_links cursor_pointer">
+                      Gwei Calculator
+                    </li>
+                  </a>
+                  <a href="#" className="text_white">
+                    <li className="fw_300 leading_150 underline text_nowrap footer_links cursor_pointer">
+                      Chain Connect
+                    </li>
+                  </a>
+                  <a href="#" className="text_white">
+                    <li className="fw_300 leading_150 underline text_nowrap footer_links cursor_pointer">
+                      Request a Chain
+                    </li>
+                  </a>
                 </ul>
               </div>
               <div className="lg_col_3 col_6">
                 <ul className=" fs_lsm fw_600 leading_150 ff_tomorrow text_white">
                   Developers
-                  <li className="fw_300 leading_150 underline text_nowrap mt_20">
-                    About Us
-                  </li>
-                  <li className="fw_300 leading_150 underline text_nowrap">
-                    Polygon API
-                  </li>
-                  <li className="fw_300 leading_150 underline text_nowrap">
-                    Blog
-                  </li>
-                  <li className="fw_300 leading_150 underline text_nowrap">
-                    Optimism API
-                  </li>
-                  <li className="fw_300 leading_150 underline text_nowrap">
-                    Careers
-                  </li>
-                  <li className="fw_300 leading_150 underline text_nowrap">
-                    Terms Of Service
-                  </li>
-                  <li className="fw_300 leading_150 underline text_nowrap">
-                    Transfers API
-                  </li>
-                  <li className="fw_300 leading_150 underline text_nowrap">
-                    Press Kit
-                  </li>
-                  <li className="fw_300 leading_150 underline text_nowrap">
-                    View all
-                  </li>
+                  <a href="#" className="text_white">
+                    <li className="fw_300 leading_150 underline text_nowrap footer_links cursor_pointer mt_20">
+                      About Us
+                    </li>
+                  </a>
+                  <a href="#" className="text_white">
+                    <li className="fw_300 leading_150 underline text_nowrap footer_links cursor_pointer">
+                      Polygon API
+                    </li>
+                  </a>
+                  <a href="#" className="text_white">
+                    <li className="fw_300 leading_150 underline text_nowrap footer_links cursor_pointer">
+                      Blog
+                    </li>
+                  </a>
+                  <a href="#" className="text_white">
+                    <li className="fw_300 leading_150 underline text_nowrap footer_links cursor_pointer">
+                      Optimism API
+                    </li>
+                  </a>
+                  <a href="#" className="text_white">
+                    <li className="fw_300 leading_150 underline text_nowrap footer_links cursor_pointer">
+                      Careers
+                    </li>
+                  </a>
+                  <a href="#" className="text_white">
+                    <li className="fw_300 leading_150 underline text_nowrap footer_links cursor_pointer">
+                      Terms Of Service
+                    </li>
+                  </a>
+                  <a href="#" className="text_white">
+                    <li className="fw_300 leading_150 underline text_nowrap footer_links cursor_pointer">
+                      Transfers API
+                    </li>
+                  </a>
+                  <a href="#" className="text_white">
+                    <li className="fw_300 leading_150 underline text_nowrap footer_links cursor_pointer">
+                      Press Kit
+                    </li>
+                  </a>
+                  <a href="#" className="text_white">
+                    <li className="fw_300 leading_150 underline text_nowrap footer_links cursor_pointer">
+                      View all
+                    </li>
+                  </a>
                 </ul>
               </div>
               <div className="lg_col_3 col_6">
                 <ul className=" fs_lsm fw_600 leading_150 ff_tomorrow text_white">
                   CONTACT
-                  <li className="fw_300 leading_150 underline text_nowrap mt_20">
-                    General Inquiries
-                  </li>
-                  <li className="fw_300 leading_150 underline text_nowrap">
-                    Press
-                  </li>
-                  <li className="fw_300 leading_150 underline text_nowrap">
-                    Sales
-                  </li>
-                  <li className="fw_300 leading_150 underline text_nowrap">
-                    Discord
-                  </li>
-                  <li className="fw_300 leading_150 underline text_nowrap">
-                    Email
-                  </li>
+                  <a href="#" className="text_white">
+                    <li className="fw_300 leading_150 underline text_nowrap footer_links cursor_pointer mt_20">
+                      General Inquiries
+                    </li>
+                  </a>
+                  <a href="#" className="text_white">
+                    <li className="fw_300 leading_150 underline text_nowrap footer_links cursor_pointer">
+                      Press
+                    </li>
+                  </a>
+                  <a href="#" className="text_white">
+                    <li className="fw_300 leading_150 underline text_nowrap footer_links cursor_pointer">
+                      Sales
+                    </li>
+                  </a>
+                  <a href="#" className="text_white">
+                    <li className="fw_300 leading_150 underline text_nowrap footer_links cursor_pointer">
+                      Discord
+                    </li>
+                  </a>
+                  <a href="#" className="text_white">
+                    <li className="fw_300 leading_150 underline text_nowrap footer_links cursor_pointer">
+                      Email
+                    </li>
+                  </a>
                 </ul>
               </div>
             </div>

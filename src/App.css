@@ -378,6 +378,12 @@
 .mt_20 {
   margin-top: 20px;
 }
+.footer_links{
+  transition: all 300ms;
+}
+.footer_links:hover{
+  color: var(--color-bluish);
+}
 @media (min-width: 576px) {
   .md_col_6 {
     width: 50%;

@@ -1,6 +1,4 @@
 import "./App.css";
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
 import ApiReference from "./components/ApiReference";
 import Header from "./components/Header";
 import LearnHow from "./components/LearnHow";
@@ -12,11 +10,11 @@ import Footer from "./components/Footer";
 function App() {
   return (
     <>
-      {/* <Header />
+      <Header />
       <MostPolular />
       <LearnHow />
       <ApiReference /> 
-      <UseCase /> */}
+      <UseCase />
       <DeveloperCommunity />
       <Footer />
     </>

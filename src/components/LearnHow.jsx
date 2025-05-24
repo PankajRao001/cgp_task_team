@@ -1,8 +1,29 @@
 import { How_Learn_List } from "./Helper";
-
+import { useRef, useEffect } from "react";
+import shalgam from "../assets/images/png/shalgam.png";
+import gsap from "gsap";
+import { ScrollTrigger } from "gsap/ScrollTrigger";
+gsap.registerPlugin(ScrollTrigger);
 const LearnHow = () => {
+  const ellipseRef = useRef(null);
+  useEffect(() => {
+    gsap.to(ellipseRef.current, {
+      y: 200, // move down 150px
+      ease: "power1.out",
+      scrollTrigger: {
+        trigger: ellipseRef.current,
+        start: "top bottom", // when ellipse enters viewport
+        end: "bottom top", // when it leaves viewport
+        scrub: 2.5, // smooth synced movement
+      },
+    });
+  }, []);
+
   return (
-    <div className="pt_45 pb_60 bg_learn bg_norepeat bg_size_full bg_pos_center">
+    <div
+      className="pt_45 pb_60 bg_learn bg_norepeat bg_size_full bg_pos_center"
+      style={{ position: "relative" }}
+    >
       <div className="container">
         <h2 className="text_white text_capitalize ff_bebas mb_33 leading_full text_center fw_400 fs_xl">
           Learn how to{" "}
@@ -28,6 +49,16 @@ const LearnHow = () => {
           })}
         </div>
       </div>
+      <img alt="image shalgam" src={shalgam}
+        ref={ellipseRef}
+        style={{
+          width: "200px",
+          position: "absolute",
+          top: "50%",
+          height: "200px",
+          margin: "0 auto",
+        }}
+      />
     </div>
   );
 };
