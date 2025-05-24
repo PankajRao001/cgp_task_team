@@ -25,6 +25,18 @@ import img7 from "../assets/images/png/solana.png";
 import img8 from "../assets/images/png/astar.png";
 import img9 from "../assets/images/png/starknet.png";
 
+import imgslick1 from "../assets/images/png/shopify.png";
+import imgslick2 from "../assets/images/png/adobe.png";
+import imgslick3 from "../assets/images/png/opensea.png";
+import imgslick4 from "../assets/images/png/0x.png";
+import imgslick5 from "../assets/images/png/aave.png";
+import imgslick6 from "../assets/images/png/royal.png";
+import imgslick7 from "../assets/images/png/zerion.png";
+import imgslick8 from "../assets/images/png/dydx.png";
+import imgslick9 from "../assets/images/png/zapper.png";
+import imgslick10 from "../assets/images/png/ledger.png";
+import imgslick11 from "../assets/images/png/chainlink.png";
+
 export const Nav_List = [
   { id: "RPC API" },
   { id: "Pricing" },
@@ -175,5 +187,48 @@ export const Reference_Data_List = [
   {
     img: img9,
     id: "Starknet",
+  },
+];
+export const UseCase_Slider_Data_List = [
+  {
+    img: imgslick1,
+  },
+  {
+    img: imgslick2,
+  },
+  {
+    img: imgslick3,
+  },
+  {
+    img: imgslick4,
+  },
+  {
+    img: imgslick5,
+  },
+  {
+    img: imgslick6,
+  },
+  {
+    img: imgslick1,
+  },
+];
+export const UseCase_Slider_Data_List2 = [
+  {
+    img: imgslick7,
+  },
+  {
+    img: imgslick8,
+  },
+  {
+    img: imgslick9,
+  },
+  {
+    img: imgslick10,
+  },
+  {
+    img: imgslick11,
+  },
+  {
+    img: imgslick7,
   },
 ];

@@ -1,8 +1,9 @@
+import PrimaryButton from "./common/PrimaryButton";
 import Navbar from "./Navbar";
 
 const Header = () => {
   return (
-    <div className="header flex ai_center jc_center flex_col">
+    <div className="header bg_norepeat bg_size_full bg_pos_center flex ai_center jc_center flex_col">
       <Navbar />
       <div className="container flex_grow_1 ai_center jc_center flex_col flex">
         <h1 className="fs_xxl fw_400 ff_bebas leading_full text_white text_capitalize">
@@ -12,9 +13,7 @@ const Header = () => {
           View API References, guides, and tutorials for Ethereum, Polygon,
           Optimism, Arbitrum, Solana and Astar.
         </p>
-        <button className="fw_600 ff_tomorrow cursor_pointer btn_view text_center">
-          View docs
-        </button>
+        <PrimaryButton className="btn_view fw_700 mt_52" text="View Docs" />
       </div>
     </div>
   );

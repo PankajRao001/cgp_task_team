@@ -2,9 +2,11 @@ import { Popular_Data_List } from "./Helper";
 
 const MostPolular = () => {
   return (
-    <div className="pt_45 pb_60 bg_popular">
+    <div className="pt_45 pb_60 bg_popular bg_norepeat bg_size_full bg_pos_center">
       <div className="container">
-        <h2 className="text_white ff_bebas mt_10 text_center mb_55 fw_400 fs_xl">Most popular</h2>
+        <h2 className="text_white ff_bebas mt_10 text_center mb_55 fw_400 fs_xl">
+          Most popular
+        </h2>
         <div className="row">
           {Popular_Data_List.map((obj) => {
             return (

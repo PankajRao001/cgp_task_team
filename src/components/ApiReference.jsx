@@ -2,7 +2,7 @@ import { Reference_Data_List } from "./Helper";
 
 const ApiReference = () => {
   return (
-    <div className="pt_45 pb_40 bg_reference">
+    <div className="pt_45 pb_40 bg_reference bg_norepeat bg_size_full bg_pos_center">
       <div className="container">
         <div className="mx_auto max_w_710">
           <h2 className="text_white ff_bebas mt_10 text_center mb_24 fw_400 fs_xl">
