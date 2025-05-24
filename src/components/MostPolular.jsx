@@ -10,7 +10,7 @@ const MostPolular = () => {
         <div className="row">
           {Popular_Data_List.map((obj) => {
             return (
-              <div key={obj} className="lg_col_3 md_col_6 col_12">
+              <div key={obj} className="lg_col_4 md_col_6 col_12">
                 <div className="popular_box gap_23">
                   <div className="flex gap_18">
                     <div className="size_32">{obj.svg}</div>

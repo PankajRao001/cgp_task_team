@@ -24,7 +24,7 @@ const UseCase = () => {
         <div className="row">
           {Usecase_Data_List.map((obj) => {
             return (
-              <div key={obj} className="lg_col_3 md_col_6 col_12 px_18">
+              <div key={obj} className="lg_col_4 md_col_6 col_12 px_18">
                 <div className="popular_box bg_black gap_23">
                   <div className="flex ai_center gap_18">
                     <div className="size_32">{obj.svg}</div>

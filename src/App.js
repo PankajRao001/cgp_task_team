@@ -7,6 +7,7 @@ import LearnHow from "./components/LearnHow";
 import MostPolular from "./components/MostPolular";
 import UseCase from "./components/UseCase";
 import DeveloperCommunity from "./components/DeveloperCommunity";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <ApiReference /> 
       <UseCase /> */}
       <DeveloperCommunity />
+      <Footer />
     </>
   );
 }
