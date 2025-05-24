@@ -197,7 +197,7 @@
   margin-top: 58px;
 }
 .btn_view:hover {
-  box-shadow: inset 5px 0px 1px 20px black;
+  box-shadow: inset 5px 0px 1px 22px black;
   color: var(--color-bluish);
 }
 .text_center {
